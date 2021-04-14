@@ -1,0 +1,51 @@
+  
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    align-items: center;
+   
+}
+h1{
+    color: aliceblue;
+}
+body{
+    background-color: rgb(34, 32, 32);
+}
+.button {
+    border: none;
+    margin:1rem;
+    font-size: 15px;
+    padding: 0.5rem;
+    height: 35px;
+    font-weight: 700;
+    background-color: brown;
+    color: white;
+     transition: all 0.2s;
+}
+.button:active{
+    padding: 2px;
+    padding-top: 2px;
+    border: none;
+    outline: none;
+}
+.button:focus{
+    
+   
+    outline: none;
+}
+
+.list-div {
+    color: white;
+    background: rgb(15, 243, 194);
+   
+    transition: all 0.2s;
+    background-color: rgba(238, 29, 29, 0.151);
+    margin: 1vw auto;
+    border-radius: 4px;
+    width: 60%;
+    height: 40px;
+    padding: 12px;
+    text-align: left;
+    font-size: larger;
+  }
